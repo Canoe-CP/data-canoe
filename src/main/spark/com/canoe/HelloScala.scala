@@ -8,8 +8,8 @@ package com.canoe
   * create: 2018-12-04 16:04
   */
 
-object HelloWorld_1 {
+object HelloScala {
   def main(args:Array[String]): Unit ={
-    println("hello world !")
+    println("hello scala !")
   }
 }
