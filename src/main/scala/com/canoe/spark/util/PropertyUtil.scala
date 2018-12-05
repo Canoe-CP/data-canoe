@@ -1,14 +1,17 @@
-package com.hngs.untils
+package com.canoe.spark.util
+
 
 import java.io.File
 import java.util.Properties
 import java.util.logging.Logger
 
 /**
+  * Created by IntelliJ IDEA.
   * program: data-canoe
-  * author: canoe
-  * create: 2018-10-22 15:49
+  * author:   Canoe
+  * create: 2018-12-05 15:12
   */
+
 class PropertyUtil private(){
   private val property: Properties = new Properties();
   private val loader: ClassLoader = Thread.currentThread().getContextClassLoader();
