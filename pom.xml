@@ -112,7 +112,7 @@
     <dependency>
       <groupId>com.fasterxml.jackson.core</groupId>
       <artifactId>jackson-databind</artifactId>
-      <version>2.9.6</version>
+      <version>2.4.4</version>
     </dependency>
 
     <!-- part3 mybatis 和 数据库 -->
@@ -189,7 +189,7 @@
     <dependency>
       <groupId>mysql</groupId>
       <artifactId>mysql-connector-java</artifactId>
-      <version>5.1.32</version>
+      <version>5.1.6</version>
     </dependency>
     <dependency>
       <groupId>junit</groupId>
@@ -208,6 +208,19 @@
       <groupId>org.apache.hbase</groupId>
       <artifactId>hbase-server</artifactId>
       <version>1.2.6</version>
+    </dependency>
+
+    <!-- pool-->
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-lang3</artifactId>
+      <version>3.5</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-pool2</artifactId>
+      <version>2.4.2</version>
     </dependency>
 
   </dependencies>

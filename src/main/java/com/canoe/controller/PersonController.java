@@ -2,7 +2,6 @@ package com.canoe.controller;
 
 import com.canoe.pojo.Person;
 import com.canoe.service.PersonService;
-import org.apache.spark.SparkConf;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

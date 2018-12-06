@@ -3,8 +3,6 @@ package com.canoe.spark.util
 import java.util
 import java.util.Properties
 
-import com.hngs.untils.PropertyUtil
-
 /**
   * Created by IntelliJ IDEA.
   *
